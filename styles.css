@@ -19,7 +19,19 @@ p {
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
     width: 37vw;
     background-image: url("./deborah-diem-ds_NPvoAzro-unsplash.jpg");
     background-size: cover;
+}
+
+.sidebar p {
+    margin-top: auto;
+    text-align: center;
+    color: white;
+}
+
+.sidebar p a:link {
+    color: whitesmoke;
 }
