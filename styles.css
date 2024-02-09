@@ -28,10 +28,17 @@ p {
 
 .sidebar p {
     margin-top: auto;
+    margin-bottom: 1rem;
     text-align: center;
     color: white;
 }
 
 .sidebar p a:link {
     color: whitesmoke;
+}
+
+.banner {
+    display: flex;
+    background-color: rgb(10 10 10 / 20%);
+    margin-top: 25vh;
 }
