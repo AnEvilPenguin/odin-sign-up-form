@@ -33,26 +33,24 @@ path {
 }
 
 .content {
-    background-color: white;
+    background-color: #F8F8FF;
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    margin: 3rem;
-}
-
-.content p {
     font-size: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
 }
 
-.content p:first-child {
+.content>* {
+    padding-left: 3rem;
+}
+
+.content>p {
+    margin: 1.5rem 0;
+}
+
+.content>p:first-child {
     margin-top: 20vh;
-}
-
-.actions {
-    flex: 1;
 }
 
 form {
@@ -60,6 +58,40 @@ form {
     flex-direction: column;
     flex-grow: 1;
     align-self: stretch;
+    justify-content: space-around;
+    box-shadow: 3px 5px 5px lightgrey;
+    margin-bottom: 2rem;
+    background-color: white;
+}
+
+form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.form-row {
+    justify-content: flex-start;
+}
+
+.form-entry {
+    flex-direction: column;
+    margin-right: 5vw;
+    font-size: 1rem;
+}
+
+input {
+    width: 20rem;
+    font-size: 1.5rem;
+    border: 2px solid #E5E7EB;
+    border-radius: 5px;
+    padding-left: 0.5rem;
+}
+
+.actions {
+    flex: 1;
+    margin-bottom: 20vh;
+    font-size: 1.5rem;
 }
 
 .sidebar {
