@@ -90,6 +90,12 @@ input {
     padding-left: 0.5rem;
 }
 
+input:focus, input:focus-visible {
+    border: 2px solid #1E4b62;
+    box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
 .actions {
     flex: 1;
     margin-bottom: 20vh;
