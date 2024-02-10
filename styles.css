@@ -43,19 +43,29 @@ path {
     font-size: 1.75rem;
 }
 
-.content>* {
+.lp3 {
     padding-left: 3rem;
 }
 
-.content>p {
-    margin: 1.5rem 0;
+.mtb1-5 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+mb2 {
+    margin-bottom: 2rem;
+}
+
+mp0 {
+    margin: 0;
+    padding: 0;
 }
 
 .content>p:first-child {
     margin-top: 20vh;
 }
 
-form {
+.form-organize {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -66,19 +76,16 @@ form {
     background-color: white;
 }
 
-form div {
+.form-row {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.form-row {
-    justify-content: flex-start;
-}
-
 .form-entry {
+    display: flex;
     flex-direction: column;
-    margin-right: 5vw;
+    margin: 1.5rem 5vw 1.5rem 0;
     font-size: 1rem;
 }
 
