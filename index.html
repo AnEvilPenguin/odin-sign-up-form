@@ -46,11 +46,11 @@
                     <div class="form-row">
                         <div class="form-entry">
                             <label for="first-name" data-help="e.g. Jean-Paul">*FIRST NAME</label>
-                            <input type="text" id="first-name" pattern="[A-Z][a-zA-Z\- ]+" placeholder=" " required>
+                            <input type="text" id="first-name" pattern="[A-Z][a-zA-Z\- ]+" title="Capital first letter, one other letter and spaces or hyphens" placeholder=" " required>
                         </div>
                         <div class="form-entry">
                             <label for="last-name" data-help="e.g. Smith"="">*LAST NAME</label>
-                            <input type="text" id="last-name" pattern="[A-Z][a-zA-Z\- ]+" placeholder=" " required>
+                            <input type="text" id="last-name" pattern="[A-Z][a-zA-Z\- ]+" title="Capital first letter, one other letter and spaces or hyphens" placeholder=" " required>
                         </div>
                     </div>
                     <div class="form-row">
@@ -60,17 +60,17 @@
                         </div>
                         <div class="form-entry">
                             <label for="user-phone" data-help="e.g. 07700 900 000">PHONE NUMBER</label>
-                            <input type="text" id="user-phone" placeholder=" " pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$">
+                            <input type="text" id="user-phone" placeholder=" " title="Please enter a valid UK phone number" pattern="^\s*\(?(020[7,8]{1}\)?[ ]?[1-9]{1}[0-9{2}[ ]?[0-9]{4})|(0[1-8]{1}[0-9]{3}\)?[ ]?[1-9]{1}[0-9]{2}[ ]?[0-9]{3})\s*$">
                         </div>
                     </div>
                     <div class="form-row">
                         <div class="form-entry">
                             <label for="user-password" data-help="At least 8 chars, upper case, lower case, symbol, and number">*PASSWORD</label>
-                            <input type="text" id="user-password" placeholder=" " patthern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+                            <input type="text" id="user-password" placeholder=" " pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
                         </div>
                         <div class="form-entry">
                             <label for="confirm-password" data-help="Must match password">*CONFIRM PASSWORD</label>
-                            <input type="text" id="confirm-password"placeholder=" " patthern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+                            <input type="text" id="confirm-password" placeholder=" " pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
                         </div>
                     </div>
                 </div>
