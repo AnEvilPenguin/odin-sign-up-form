@@ -92,19 +92,21 @@ mp0 {
 input {
     width: 20rem;
     font-size: 1.5rem;
-    border: 2px solid #E5E7EB;
     border-radius: 5px;
     padding-left: 0.5rem;
 }
 
-input:focus,
-input:focus-visible {
+input:focus {
     border: 2px solid #1E4b62;
     box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.2);
     outline: none;
 }
 
-input:invalid {
+imput:valid {
+    border: 2px solid #E5E7EB;
+}
+
+input:user-invalid {
     border: 2px solid red;
 }
 
