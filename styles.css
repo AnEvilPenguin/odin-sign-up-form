@@ -110,6 +110,11 @@ input:user-invalid {
     border: 2px solid red;
 }
 
+label:has(+ input:invalid:not(:placeholder-shown))::after {
+    content: " (" attr(data-help) ")";
+    color: red;
+}
+
 .actions {
     flex: 1;
     margin-bottom: 20vh;
