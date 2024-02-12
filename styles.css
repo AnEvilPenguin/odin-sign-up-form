@@ -110,6 +110,7 @@ input:user-invalid {
     border: 2px solid red;
 }
 
+/* Note that theres a really cool version of this that I don't quite get yet in Notion that uses animations */
 label:has(+ input:invalid:not(:placeholder-shown))::after {
     content: " (" attr(data-help) ")";
     color: red;
